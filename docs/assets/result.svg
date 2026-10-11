@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="250" viewBox="0 0 1020 250" role="img" aria-label="Observed local execution output">
+<rect width="1020" height="250" fill="#ffffff" stroke="#dce5ec"/><text x="44" y="55" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#3c668b" letter-spacing="2.2">EXECUTION RECORD</text><line x1="44" y1="68" x2="976" y2="68" stroke="#dce5ec"/>
+<text x="45" y="123" font-family="Arial,sans-serif" font-size="39" font-weight="650" fill="#0b253f">5</text>
+<text x="45" y="161" font-family="Arial,sans-serif" font-size="16" fill="#53677c">Rows</text>
+<text x="358" y="123" font-family="Arial,sans-serif" font-size="39" font-weight="650" fill="#0b253f">5</text>
+<text x="358" y="161" font-family="Arial,sans-serif" font-size="16" fill="#53677c">Columns</text>
+<line x1="340" y1="89" x2="340" y2="175" stroke="#e2e8ef"/>
+<text x="671" y="123" font-family="Arial,sans-serif" font-size="39" font-weight="650" fill="#0b253f">1</text>
+<text x="671" y="161" font-family="Arial,sans-serif" font-size="16" fill="#53677c">Duplicate rows</text>
+<line x1="653" y1="89" x2="653" y2="175" stroke="#e2e8ef"/><text x="44" y="225" font-family="Arial,sans-serif" font-size="13" fill="#8291a2">Local run on included test inputs · Source: results/execution.txt</text>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "id": "001",
+  "status": "executed",
+  "commands": [
+    "python src/profile_csv.py sample/customer_data.csv --output outputs/profile.json"
+  ],
+  "elapsed_seconds": 1.59,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/customer_data.csv",
+      "sha256": "5fb68ce8d9225e3314793c272cc867959d5b025dd7fb196a0f6936a191f662f5"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "509fb87b1f3220658041fab631cc02bce00af16ce35b2e853792b026bbfe5012",
+      "bytes": 111
+    },
+    {
+      "file": "results/artifacts/profile.json",
+      "sha256": "c8ae5526b733f5b998277988a3e0d297f2c7710ce7fc4898ff215405d8f85527",
+      "bytes": 2239
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}

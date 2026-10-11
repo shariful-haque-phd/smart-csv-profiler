@@ -1,0 +1,3 @@
+$ python src/profile_csv.py sample/customer_data.csv --output outputs/profile.json
+Wrote outputs/profile.json
+

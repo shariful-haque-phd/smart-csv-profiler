@@ -1,0 +1,31 @@
+{
+  "project_id": 1,
+  "repo_name": "001-smart-csv-profiler",
+  "title": "Smart CSV Profiler",
+  "theme": "Data Foundations & Engineering",
+  "theme_id": "T01",
+  "level": 1,
+  "level_label": "Foundations",
+  "prototype_status": "research prototype",
+  "primary_description": "Dataset profiling and anomaly screening",
+  "research_question_proposed": "How reliably can inexpensive column-level statistics flag dataset issues before downstream processing?",
+  "sample_files": [
+    "sample/customer_data.csv"
+  ],
+  "source_modules": [
+    "src/profile_csv.py"
+  ],
+  "commands_from_original_readme": [
+    "python src/profile_csv.py sample/customer_data.csv --output outputs/profile.json"
+  ],
+  "docs": [
+    "README.md",
+    "docs/RESEARCH.md",
+    "docs/ARCHITECTURE.md",
+    "docs/DEMO.md",
+    "docs/RESULTS.md"
+  ],
+  "source_origin": "github-level1-20-projects(1).zip",
+  "execution_status": "verified_local_execution",
+  "evidence": "results/execution.json"
+}

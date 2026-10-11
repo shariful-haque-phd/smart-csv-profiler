@@ -1,0 +1,102 @@
+{
+  "rows": 5,
+  "columns": 5,
+  "duplicate_rows": 1,
+  "column_profiles": {
+    "customer_id": {
+      "dtype": "int64",
+      "semantic_type": "numeric",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_count": 4,
+      "unique_percent": 80.0,
+      "outliers": {
+        "count": 0,
+        "lower_bound": -1.0,
+        "upper_bound": 7.0
+      },
+      "summary": {
+        "min": 1.0,
+        "max": 4.0,
+        "mean": 2.8,
+        "median": 3.0
+      }
+    },
+    "age": {
+      "dtype": "float64",
+      "semantic_type": "numeric",
+      "missing_count": 1,
+      "missing_percent": 20.0,
+      "unique_count": 3,
+      "unique_percent": 60.0,
+      "outliers": {
+        "count": 0,
+        "lower_bound": -149.375,
+        "upper_bound": 329.625
+      },
+      "summary": {
+        "min": 28.0,
+        "max": 150.0,
+        "mean": 89.75,
+        "median": 90.5
+      }
+    },
+    "city": {
+      "dtype": "object",
+      "semantic_type": "categorical",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_count": 2,
+      "unique_percent": 40.0,
+      "suspicious_values": {
+        "empty_like_tokens": 0,
+        "email_like": 0,
+        "url_like": 0,
+        "very_long_strings": 0
+      },
+      "top_values": {
+        "Dhaka": 4,
+        "Chattogram": 1
+      }
+    },
+    "email": {
+      "dtype": "object",
+      "semantic_type": "categorical",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_count": 4,
+      "unique_percent": 80.0,
+      "suspicious_values": {
+        "empty_like_tokens": 1,
+        "email_like": 4,
+        "url_like": 0,
+        "very_long_strings": 0
+      },
+      "top_values": {
+        "c@example.com": 2,
+        "a@example.com": 1,
+        "b@example.com": 1,
+        "unknown": 1
+      }
+    },
+    "spend": {
+      "dtype": "float64",
+      "semantic_type": "numeric",
+      "missing_count": 0,
+      "missing_percent": 0.0,
+      "unique_count": 4,
+      "unique_percent": 80.0,
+      "outliers": {
+        "count": 0,
+        "lower_bound": -14697.25,
+        "upper_bound": 24816.75
+      },
+      "summary": {
+        "min": 90.0,
+        "max": 9999.0,
+        "mean": 4083.7,
+        "median": 210.0
+      }
+    }
+  }
+}

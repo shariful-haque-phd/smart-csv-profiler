@@ -1,0 +1,6 @@
+customer_id,age,city,email,spend
+1,28,Dhaka,a@example.com,120.5
+2,31,Chattogram,b@example.com,210
+3,,Dhaka,unknown,90
+4,150,Dhaka,c@example.com,9999
+4,150,Dhaka,c@example.com,9999
